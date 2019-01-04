@@ -34,4 +34,6 @@ app.post('/create/entry', function(req, res){
   newEntry.save().then(() => res.send("New Entry Saved"));
 });
 
+app.post
+
 app.listen(3000);
